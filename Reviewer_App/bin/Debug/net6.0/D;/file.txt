@@ -1,0 +1,249 @@
+2022-11-17 22:01:54.0427|DEBUG|Program|init Main
+2022-11-17 22:01:55.5194|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2022-11-17 22:01:55.5827|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-11-17 22:01:55.6016|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 22:01:55.6067|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-05b870b5-a473-4245-8f13-45b86067198b.xml'.
+2022-11-17 22:01:55.6067|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7e05cf07-b646-42b2-a490-0f84063a2e1e.xml'.
+2022-11-17 22:01:55.6067|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {05b870b5-a473-4245-8f13-45b86067198b}.
+2022-11-17 22:01:55.6067|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7e05cf07-b646-42b2-a490-0f84063a2e1e}.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {05b870b5-a473-4245-8f13-45b86067198b} with expiration date 2023-01-26 05:40:52Z as default key.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {05b870b5-a473-4245-8f13-45b86067198b} as the default key.
+2022-11-17 22:01:55.6198|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {05b870b5-a473-4245-8f13-45b86067198b} was loaded during application startup.
+2022-11-17 22:01:55.7442|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A55F1D2D7D90476D2474F7018CEBD3C769F8947C)
+2022-11-17 22:01:55.7919|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7028
+2022-11-17 22:01:55.7919|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2022-11-17 22:01:55.7919|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Reviewer_App
+2022-11-17 22:01:55.7919|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 22:01:55.7919|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 22:01:55.7919|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-11-17 22:01:55.7919|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-11-17 22:01:55.7919|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\user\source\repos\Reviewer_App\Reviewer_App\
+2022-11-17 22:01:55.7919|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-11-17 22:01:56.1458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R4" accepted.
+2022-11-17 22:01:56.1458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R4" started.
+2022-11-17 22:01:56.1496|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N4V0C1R5" received FIN.
+2022-11-17 22:01:56.1496|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R5" accepted.
+2022-11-17 22:01:56.1496|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N4V0C1R4" received FIN.
+2022-11-17 22:01:56.1496|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R5" started.
+2022-11-17 22:01:56.1667|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:01:56.1667|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:01:56.2191|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R5" stopped.
+2022-11-17 22:01:56.2191|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R4" stopped.
+2022-11-17 22:01:56.2191|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N4V0C1R4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:01:56.2191|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N4V0C1R5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:01:56.5797|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R6" accepted.
+2022-11-17 22:01:56.5905|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N4V0C1R6" started.
+2022-11-17 22:01:56.8037|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMM8N4V0C1R6 established using the following protocol: Tls12
+2022-11-17 22:01:56.8727|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-11-17 22:01:56.9060|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 22:01:56.9847|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2022-11-17 22:01:56.9847|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:01:57.1086|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2022-11-17 22:01:57.1312|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2022-11-17 22:01:57.1377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 268.4582ms
+2022-11-17 22:01:57.2058|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-11-17 22:01:57.2157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.9397ms
+2022-11-17 22:01:57.3204|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-11-17 22:01:57.3338|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2022-11-17 22:01:57.3338|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:01:57.5433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.8545ms
+2022-11-17 22:02:14.2400|DEBUG|Program|init Main
+2022-11-17 22:02:15.3080|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2022-11-17 22:02:15.3675|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-11-17 22:02:15.3875|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 22:02:15.3875|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-05b870b5-a473-4245-8f13-45b86067198b.xml'.
+2022-11-17 22:02:15.3875|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7e05cf07-b646-42b2-a490-0f84063a2e1e.xml'.
+2022-11-17 22:02:15.4024|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {05b870b5-a473-4245-8f13-45b86067198b}.
+2022-11-17 22:02:15.4024|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7e05cf07-b646-42b2-a490-0f84063a2e1e}.
+2022-11-17 22:02:15.4024|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {05b870b5-a473-4245-8f13-45b86067198b} with expiration date 2023-01-26 05:40:52Z as default key.
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {05b870b5-a473-4245-8f13-45b86067198b} as the default key.
+2022-11-17 22:02:15.4149|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {05b870b5-a473-4245-8f13-45b86067198b} was loaded during application startup.
+2022-11-17 22:02:15.5450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A55F1D2D7D90476D2474F7018CEBD3C769F8947C)
+2022-11-17 22:02:15.5808|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7028
+2022-11-17 22:02:15.5808|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2022-11-17 22:02:15.5808|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Reviewer_App
+2022-11-17 22:02:15.5808|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 22:02:15.5808|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 22:02:15.5808|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-11-17 22:02:15.5808|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-11-17 22:02:15.5808|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\user\source\repos\Reviewer_App\Reviewer_App\
+2022-11-17 22:02:15.5808|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-11-17 22:02:16.0634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKA" accepted.
+2022-11-17 22:02:16.0634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKA" started.
+2022-11-17 22:02:16.0634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKB" accepted.
+2022-11-17 22:02:16.0634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKB" started.
+2022-11-17 22:02:16.0854|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N54UADKA" received FIN.
+2022-11-17 22:02:16.0854|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N54UADKB" received FIN.
+2022-11-17 22:02:16.1022|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:02:16.1022|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:02:16.1379|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKB" stopped.
+2022-11-17 22:02:16.1379|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKA" stopped.
+2022-11-17 22:02:16.1379|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N54UADKB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:02:16.1379|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N54UADKA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:02:16.4582|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKC" accepted.
+2022-11-17 22:02:16.4698|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N54UADKC" started.
+2022-11-17 22:02:16.6084|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMM8N54UADKC established using the following protocol: Tls12
+2022-11-17 22:02:16.7691|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-11-17 22:02:16.7940|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 22:02:16.8401|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2022-11-17 22:02:16.8401|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:02:16.9676|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2022-11-17 22:02:16.9856|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2022-11-17 22:02:16.9856|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 225.5787ms
+2022-11-17 22:02:17.0143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-11-17 22:02:17.0143|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.4192ms
+2022-11-17 22:02:17.1382|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-11-17 22:02:17.1382|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2022-11-17 22:02:17.1382|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:02:17.3470|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.8181ms
+2022-11-17 22:02:29.0641|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/api/Country - -
+2022-11-17 22:02:29.0759|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Country'
+2022-11-17 22:02:29.0890|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Reviewer_App.Controllers.CountryController.GetAllCountries (Reviewer_App)' with route pattern 'api/Country' is valid for the request path '/api/Country'
+2022-11-17 22:02:29.0890|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Reviewer_App.Controllers.CountryController.GetAllCountries (Reviewer_App)'
+2022-11-17 22:02:29.0890|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-17 22:02:29.2431|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Reviewer_App.Controllers.CountryController.GetAllCountries (Reviewer_App)'
+2022-11-17 22:02:29.2431|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllCountries", controller = "Country"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllCountries() on controller Reviewer_App.Controllers.CountryController (Reviewer_App).
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2022-11-17 22:02:29.2431|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Reviewer_App.Controllers.CountryController (Reviewer_App)
+2022-11-17 22:02:29.4461|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-17 22:02:29.7815|DEBUG|Reviewer_App.Controllers.CountryController|NLog injected into HomeController
+2022-11-17 22:02:29.7815|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Reviewer_App.Controllers.CountryController (Reviewer_App)
+2022-11-17 22:02:30.6075|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'PokemonId'} was not created on entity type 'PokemonCategory' as the properties are already covered by the index {'PokemonId', 'CategoryId'}.
+2022-11-17 22:02:30.6075|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'PokemonId'} was not created on entity type 'PokemonOwner' as the properties are already covered by the index {'PokemonId', 'OwnerId'}.
+2022-11-17 22:02:30.7961|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'Owner.CountryId' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-17 22:02:30.7961|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'Review.PokemonId' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-17 22:02:30.7961|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'Review.ReviewerId' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-17 22:02:31.1603|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.10 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: None
+2022-11-17 22:02:31.2663|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Country>()'
+2022-11-17 22:02:31.5575|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Country>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Country.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Country.Name (string) Required, 1] }
+        SELECT c.Id, c.Name
+        FROM Countries AS c), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Country>, 
+    Reviewer_App.Data.DataContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-17 22:02:31.6085|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2022-11-17 22:02:31.6885|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (57ms).
+2022-11-17 22:02:31.7010|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'Pokemon_Api' on server '(localdb)\MSSQLLocalDB'.
+2022-11-17 22:02:33.1669|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'Pokemon_Api' on server '(localdb)\MSSQLLocalDB'.
+2022-11-17 22:02:33.1669|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Countries] AS [c]
+2022-11-17 22:02:33.2337|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (57ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Name]
+FROM [Countries] AS [c]
+2022-11-17 22:02:33.3031|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'DataContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 22:02:33.3296|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'DataContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 22:02:33.3296|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'DataContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-17 22:02:33.3397|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2022-11-17 22:02:33.3397|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'Pokemon_Api' on server '(localdb)\MSSQLLocalDB'.
+2022-11-17 22:02:33.3634|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'Pokemon_Api' on server '(localdb)\MSSQLLocalDB'.
+2022-11-17 22:02:33.4068|INFO|Reviewer_App.Controllers.CountryController|Hello, this is the index!
+2022-11-17 22:02:33.4068|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2022-11-17 22:02:33.4150|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2022-11-17 22:02:33.4150|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2022-11-17 22:02:33.4150|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-17 22:02:33.4150|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-17 22:02:33.4150|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-11-17 22:02:33.4150|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Reviewer_App.Dtos.CountryDto, Reviewer_App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-17 22:02:33.4150|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Reviewer_App.Controllers.CountryController.GetAllCountries (Reviewer_App) in 4163.1344ms
+2022-11-17 22:02:33.4150|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Reviewer_App.Controllers.CountryController.GetAllCountries (Reviewer_App)'
+2022-11-17 22:02:33.4362|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'DataContext' disposed.
+2022-11-17 22:02:33.4362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/api/Country - - - 200 - application/json;+charset=utf-8 4377.1310ms
+2022-11-17 22:03:48.3051|DEBUG|Program|init Main
+2022-11-17 22:03:49.5893|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2022-11-17 22:03:49.6302|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-11-17 22:03:49.6489|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-17 22:03:49.6489|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-05b870b5-a473-4245-8f13-45b86067198b.xml'.
+2022-11-17 22:03:49.6489|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7e05cf07-b646-42b2-a490-0f84063a2e1e.xml'.
+2022-11-17 22:03:49.6489|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {05b870b5-a473-4245-8f13-45b86067198b}.
+2022-11-17 22:03:49.6489|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7e05cf07-b646-42b2-a490-0f84063a2e1e}.
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {05b870b5-a473-4245-8f13-45b86067198b} with expiration date 2023-01-26 05:40:52Z as default key.
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-11-17 22:03:49.6666|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {05b870b5-a473-4245-8f13-45b86067198b} as the default key.
+2022-11-17 22:03:49.6805|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {05b870b5-a473-4245-8f13-45b86067198b} was loaded during application startup.
+2022-11-17 22:03:49.8049|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: A55F1D2D7D90476D2474F7018CEBD3C769F8947C)
+2022-11-17 22:03:49.8373|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7028
+2022-11-17 22:03:49.8373|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5028
+2022-11-17 22:03:49.8373|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Reviewer_App
+2022-11-17 22:03:49.8373|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-17 22:03:49.8373|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-17 22:03:49.8373|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-11-17 22:03:49.8373|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-11-17 22:03:49.8373|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\user\source\repos\Reviewer_App\Reviewer_App\
+2022-11-17 22:03:49.8373|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVC" accepted.
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVC" started.
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVD" accepted.
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVD" started.
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N610CNVD" received FIN.
+2022-11-17 22:03:50.2331|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N610CNVC" received FIN.
+2022-11-17 22:03:50.2590|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:03:50.2590|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-17 22:03:50.2909|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVC" stopped.
+2022-11-17 22:03:50.2909|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVD" stopped.
+2022-11-17 22:03:50.2909|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N610CNVD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:03:50.2909|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMM8N610CNVC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-17 22:03:50.5676|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVE" accepted.
+2022-11-17 22:03:50.5935|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMM8N610CNVE" started.
+2022-11-17 22:03:50.8864|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMM8N610CNVE established using the following protocol: Tls12
+2022-11-17 22:03:50.9619|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2022-11-17 22:03:50.9970|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-11-17 22:03:51.0452|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2022-11-17 22:03:51.0452|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:03:51.2116|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2022-11-17 22:03:51.2398|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2022-11-17 22:03:51.2474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 288.8127ms
+2022-11-17 22:03:51.2716|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2022-11-17 22:03:51.2781|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.4026ms
+2022-11-17 22:03:51.4405|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2022-11-17 22:03:51.4405|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2022-11-17 22:03:51.4405|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-17 22:03:51.6669|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.4339ms

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Reviewer_App",
+    "\\Reviewer_App\\Controllers",
+    "\\Reviewer_App\\Data",
+    "\\Reviewer_App\\Dtos",
+    "\\Reviewer_App\\helper",
+    "\\Reviewer_App\\Interfaces",
+    "\\Reviewer_App\\Migrations",
+    "\\Reviewer_App\\Models",
+    "\\Reviewer_App\\Repository"
+  ],
+  "SelectedNode": "\\Reviewer_App\\Seed.cs",
+  "PreviewInSolutionExplorer": false
+}
